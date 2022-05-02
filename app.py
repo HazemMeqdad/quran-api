@@ -22,4 +22,4 @@ app.register_blueprint(views.azkar)
 app.register_error_handler(404, views.errors.page_not_found)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=3)
+    app.run(debug=True, port=5000)
