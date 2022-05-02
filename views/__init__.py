@@ -1,4 +1,5 @@
 from .index import index
 from .moshaf import moshaf
-from .readers import readers
+from .reciters import reciters
 from .azkar import azkar
+from .errors import *
