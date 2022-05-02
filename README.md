@@ -10,6 +10,18 @@ allahuma saliy ealaa sayidina muhamad, the quri-api is a python web application 
 * you can find azkar with categories
 * you can find the quran translation
 
+## Configuration
+
+First make directory as name `instance` in your project directory.
+
+Then create a file named `config.py` in the `instance` directory.
+
+```python
+# config.py
+SECRET_KEY = "any string to secret your app"
+ALLOW_HOSTS = ["*"]
+```
+
 ## Installation
 
 First, you need to clone porject from github.
