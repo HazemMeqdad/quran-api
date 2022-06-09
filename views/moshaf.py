@@ -8,4 +8,3 @@ moshaf = Blueprint('moshaf', __name__)
 @is_allow
 def index(path):
     return send_from_directory('cdn', path)
-
