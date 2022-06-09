@@ -43,13 +43,13 @@ python3 app.py  # Linux / MacOS
 
 * Optional: you can install the server with `pip install gunicorn` & run it with `gunicorn app:app -b="host:port"` replace `host:port` with your host and port or run `gunicorn app:app`.
 
-After that, you need to install a cdn files to your server. from this link: [soon]()
+After that, you need to install a cdn files to your server. from this link [Google Drive](https://drive.google.com/drive/folders/1rTk-2iuFNZ00dq55E7EhLcghrBXFKavK?usp=sharing) and copy the `reciters.rar` file to your server to `cdn/reciters` and unrar it.
 
 
 ## Routes
 * `/` - States the root of the application & is allow host.
-* `/moshaf/{page_number}.png` - Get the page image of the moshaf.
-* `/reciters/{reciter_name}/{surah_number}.mp3` - Get the recitation of the surah.
+* `/moshaf/:page_number.png` - Get the page image of the moshaf.
+* `/reciters/:reciter_name/:surah_number.mp3` - Get the recitation of the surah.
 
 
 ## Copyright
