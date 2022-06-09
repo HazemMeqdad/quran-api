@@ -6,10 +6,6 @@ from flask_cors import CORS
 app = Flask(__name__, instance_relative_config=True)
 CORS(app)
 
-@app.route("/test")
-def test():
-    return "test"
-
 
 app.config.from_pyfile("config.py")
 app.secret_key = app.config["SECRET_KEY"]

@@ -20,6 +20,7 @@ Then create a file named `config.py` in the `instance` directory.
 # config.py
 SECRET_KEY = "any string to secret your app"
 ALLOW_HOSTS = ["*"]
+DOMAIN = "http://localhost:5000"  # like https://cdn.fdrbot.com
 ```
 
 ## Installation
