@@ -1,0 +1,12 @@
+version: '3'
+
+
+services:
+  quran-api: 
+    build: .
+    restart: always
+    container_name: quran-api
+    volumes:
+      - ./cdn:/opt/quran-api/cdn
+    ports:
+      - "5050:5050"
