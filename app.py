@@ -14,6 +14,7 @@ app.register_blueprint(views.index)
 app.register_blueprint(views.moshaf)
 app.register_blueprint(views.reciters)
 app.register_blueprint(views.azkar)
+app.register_blueprint(views.pray)
 
 app.register_error_handler(404, views.errors.page_not_found)
 
