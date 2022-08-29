@@ -32,4 +32,4 @@ def reader(path):
         with open("data.json", "r", encoding="utf-8") as f:
             reciters = json.load(f)["reciters"]
         return jsonify({"available_files": files, "name": reciters.get(folder_name, None) or folder_name})
-    return send_from_directory("cdn/reciters", path)
+    return send_from_directory("cdn/reciters", path, as_attachment=True)
